@@ -1,0 +1,16 @@
+.frame {
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+
+/* .snake {
+  position: absolute;
+  background-color: #0a0aa8;
+} */
+
+/* .food {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+} */
