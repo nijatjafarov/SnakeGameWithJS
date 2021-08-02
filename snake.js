@@ -71,7 +71,6 @@ function move(newPos) {
 }
 
 function direction(newHead) {
-  console.log("lll")
   if(typeof newHead != 'undefined'){
     var tail = snake[snake.length-1];
     move(newHead);
@@ -127,12 +126,4 @@ function checkCrossOver() {
       break;
     }
   }
-}
-
-var myVar;
-function hey(hep) {
-  myVar = setTimeout(go, 500, hep);
-}
-function hoy() {
-  clearInterval(myVar);
 }
